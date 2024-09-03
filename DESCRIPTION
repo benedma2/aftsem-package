@@ -1,0 +1,15 @@
+Package: aftsem
+Type: Package
+Title: Implemented several basic algorithms for estimation of regression parameters for semiparametric accelerated failure time model
+Version: 1.0
+Date: 2023-10-08
+Author: Martin Benedikt
+Maintainer: <benedma2@cvut.cz>
+Description: Implements Gehan estimation (same as Jin lss), Buckley-James method, Hellers estimation, Polynomial smoothed estimation
+License: GNU General Public License v3.0
+Imports: survival, Rcpp (>= 1.0.10), stats, quantreg, optimx
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.3.1
+LazyData: true
+Depends: R (>= 4.2.2)
+Encoding: UTF-8
