@@ -1,6 +1,5 @@
 \name{aftsem-package}
 \alias{aftsem-package}
-\alias{aftsem}
 \docType{package}
 \title{
 \packageTitle{aftsem}
@@ -13,7 +12,7 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{aftsem}
 \packageIndices{aftsem}
-~~ An overview of how to use the package, including the most important functions ~~
+
 }
 \author{
 \packageAuthor{aftsem}
@@ -21,14 +20,18 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{aftsem}
 }
 \references{
-~~ Literature or other references for background information ~~
+
+ Buckley, J.; James, I. Linear Regression with Censored Data. Biometrika. 1979,  issn 00063444.
+
+ Jin, Z., Lin, D.Y., Wei, L. J., and Ying, Z. (2003). Rank-based inference for the accelerated failure time models, Biometrika, 90, 341-353.
+ 
+ Heller, G. Smoothed rank regression with censored data. Journal of the American Statistical Association. 2007
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation directory ~~
+
 \keyword{ package }
 \seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
-\examples{
 
+ \code{\link[survival]{survfit}}
+ \code{\link[aftgee]{aftgee}}
 }
+

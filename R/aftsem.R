@@ -79,7 +79,7 @@ aftsem <- function(formula,
     zv <- zv[-yv] # remove response variable from xv
   }
   
-  y <- model.extract(mf, response)
+  y <- model.extract(mf, "response")
   
   if (!inherits(y, "Surv")) 
   {

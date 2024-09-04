@@ -8,6 +8,7 @@
 #' @param rsmat A resampling matrix 
 #' @param init A logical value indicating whether to return the initial fit object
 #'   (default is `FALSE`). If `FALSE`, only the coefficients are returned.
+#' @param m Method for quantreg optimalization
 #'
 #' @return If `init = FALSE` and `change == 1`, returns a list with elements `INTERCEPT`,
 #'   `RESID`, `ITERS`, `CONVERGED`, `BETA`. Otherwise, returns a matrix of resampled

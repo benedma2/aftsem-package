@@ -15,6 +15,8 @@ gehan_estimation(y, Z, delta, rsmat, m, init = FALSE)
 
 \item{rsmat}{A resampling matrix}
 
+\item{m}{Method for quantreg optimalization}
+
 \item{init}{A logical value indicating whether to return the initial fit object
 (default is `FALSE`). If `FALSE`, only the coefficients are returned.}
 }
