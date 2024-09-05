@@ -3,13 +3,13 @@ Type: Package
 Title: Implemented Several Basic Algorithms for Estimation of Regression Parameters for Semiparametric Accelerated Failure Time Model
 Version: 1.0
 Date: 2024-09-01
-Author: Martin Benedikt
 Maintainer: Martin Benedikt <benedma2@cvut.cz>
 Description: Description: This package implements several basic algorithms for estimating regression parameters for semiparametric accelerated failure time models. The main estimating methods are Jin rank based method, Hellers estimating methon and polynomial smoothed Gehans method.
 License:  GPL (>= 3)
 BugReports: https://github.com/benedma2/aftsem-package/issues
 Imports: survival, Rcpp (>= 1.0.10), stats, quantreg, optimx
 URL: https://github.com/benedma2/aftsem-package
+Authors@R: person(given = "Martin", family = "Benedikt",role = c("aut", "cre"),email = "benedma2@cvut.cz")
 LinkingTo: Rcpp, RcppArmadillo
 RoxygenNote: 7.3.1
 LazyData: true

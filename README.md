@@ -2,6 +2,10 @@
 
 The `aftsem` package implements several algorithms for estimating coefficients in semiparametric accelerated failure time (AFT) models. These models are widely used in survival analysis to handle censored data, where the goal is to estimate regression coefficients that relate covariates to failure times.
 
+## Status
+
+The package is under active development.
+
 ## Key Features ✨
 
 The package offers two main approaches for estimating the coefficients:
@@ -18,7 +22,7 @@ Biometrika. 2006, roč. 93, č. 1, s. 147–161.] 📖
 2. **Rank-Based Methods** 📊
    - Inspired by the methods of Jin and Tsiatis. 
    - Three rank-based algorithms are implemented:
-     [ JIN, Zhezhen; LIN, D. Y.; WEI, L. J.; YING, Zhiliang. Rank-Based Inference for the Ac-
+     - [ JIN, Zhezhen; LIN, D. Y.; WEI, L. J.; YING, Zhiliang. Rank-Based Inference for the Ac-
 celerated Failure Time Model. Biometrika . 2003, roč. 90, č. 2, s. 341–353 [cit. 2024-
 02-13]. issn 00063444. Available on: http://www.jstor.org/stable/30042044.] 📖
      - [HELLER, Glenn. Smoothed rank regression with censored data. Journal of the American
@@ -29,7 +33,7 @@ estimation for censored data in small-and large-scale problems. Statistics and c
 
 ## Installation 🛠️
 
-You can install the development version of the `aftsem` package from GitHub:
+You can install the development version of the `aftsem` package from CRAN:
 
 ``` r
 > install.packages("aftsem")
