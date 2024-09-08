@@ -4,7 +4,7 @@ Title: Implemented Several Basic Algorithms for Estimation of Regression Paramet
 Version: 1.0
 Date: 2024-09-01
 Maintainer: Martin Benedikt <benedma2@cvut.cz>
-Description: Description: This package implements several basic algorithms for estimating regression parameters for semiparametric accelerated failure time models. The main estimating methods are Jin rank based method, Hellers estimating methon and polynomial smoothed Gehans method.
+Description:  Implements several basic algorithms for estimating regression parameters for semiparametric accelerated failure time (AFT) model. The main methods are: Jin rank-based method (Jin <https://doi.org/10.1093/biomet/90.2.341>), Heller’s estimating method (Heller <https://doi.org/10.1198/016214506000001257>), Polynomial smoothed Gehan method (Chung <https://doi.org/10.1007/s11222-012-9333-9>), Buckley-James method (Buckley <https://doi.org/10.2307/2335161>) and Jin`s improved least squares method (Jin <https://doi.org/10.1093/biomet/93.1.147>). This package can be used for modeling right-censored data and for comparing different estimation algorithms.
 License:  GPL (>= 3)
 BugReports: https://github.com/benedma2/aftsem-package/issues
 Imports: survival, Rcpp (>= 1.0.10), stats, quantreg, optimx
@@ -15,3 +15,4 @@ RoxygenNote: 7.3.1
 LazyData: true
 Depends: R (>= 4.2.0)
 Encoding: UTF-8
+
