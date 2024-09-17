@@ -17,8 +17,7 @@
 #' The `aftsem_fit` function provides a way to fit a semi-parametric AFT model
 #' to survival data with potential RIGHT censoring. Depending on the chosen method, 
 #' different estimation techniques are used, such as Buckley-James or Gehan's method.
-#' If resampling is required for the method, a seed is set for reproducibility and
-#' the resamples are generated from an exponential distribution.
+#' If resampling is required for the method, the function will generate resamples from an exponential distribution.
 #'
 #' @return
 #' Returns a list object of class "aftsem" containing the following components:
@@ -53,7 +52,7 @@ aftsem_fit <- function (Z,
   
   if(sampling.used)
   {
-    set.seed(42)
+    # set.seed(42) you can uncomment this line if you need to debug
     # generate matrix for variance estimation, we use exponentional distribution
     R <- matrix(rexp(nobs*resample), ncol=resample)
   }
